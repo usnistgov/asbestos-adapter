@@ -1,4 +1,4 @@
-package com.google.gwt.user.client.rpc
+package gov.nist.asbestos.adapter
 
 import groovy.transform.TypeChecked
 import org.codehaus.groovy.runtime.StackTraceUtils
