@@ -10,6 +10,8 @@ class StackTrace {
         StringWriter out = new StringWriter()
         PrintWriter writer = new PrintWriter(out)
 
+        writer.println(t.class.name + ': ' + t.message)
+
         StackTraceUtils.printSanitizedStackTrace(t, writer)
 
         writer.flush(); // flush is really optional here, as Writer calls the empty StringWriter.flush
