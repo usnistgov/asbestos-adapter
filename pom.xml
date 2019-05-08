@@ -9,6 +9,8 @@
 
     <artifactId>asbestos-adapter</artifactId>
 
+    <name>Asbestos Adapter</name>
+
     <dependencies>
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
